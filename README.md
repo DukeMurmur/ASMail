@@ -14,21 +14,21 @@ If this option is enabled, script will try to connect to recievers mailbox and l
 # Flags
 Flags is used to print the config file data or to change its parameters separately<br />
 Usage: ASMail.py -F new_value for:<br />
--h or --help to view help menu
--f or -from to change the senders address
--t or -to to change the recievers address
--p or -port to change the port number of sender's SMTP server
--u or -username to change the username (sender's address or login)
--w or -password to change the password (sender's password)
--l or -use_tls to enable/disable tls
--c or -print_config to print configuration file
--r or -clear_uids to delete records of used uids
--e or -confirm to enable/disable delievery confirm
--a or -host to change imap recievers host
--q or -recievers_username to change recievers login
--d or -recievers_password to change recievers password
--m or -mailbox to change the destination mailbox
--o or -popup_report to enable/diable pop up report
+-h or --help to view help menu<br />
+-f or -from to change the senders address<br />
+-t or -to to change the recievers address<br />
+-p or -port to change the port number of sender's SMTP server<br />
+-u or -username to change the username (sender's address or login)<br />
+-w or -password to change the password (sender's password)<br />
+-l or -use_tls to enable/disable tls<br />
+-c or -print_config to print configuration file<br />
+-r or -clear_uids to delete records of used uids<br />
+-e or -confirm to enable/disable delievery confirm<br />
+-a or -host to change imap recievers host<br />
+-q or -recievers_username to change recievers login<br />
+-d or -recievers_password to change recievers password<br />
+-m or -mailbox to change the destination mailbox<br />
+-o or -popup_report to enable/diable pop up report<br />
 (Second parameter after flag is not required, it can be entered in input field afterwards)<br />
 # Configuration file
 By default, the configuration file is created at C://Windows//System32, called ASMail_config<br />Program enters configuration mode if it is unable to find
